@@ -5,7 +5,7 @@ config = {
     'description': 'Reverse complement experiments',
     'download_url': 'https://github.com/kundajelab/revcomp_experiments',
     'version': '0.1.0.0',
-    'packages': [''],
+    'packages': [],
     'package_data': {},
     'setup_requires': [],
     'dependency_links': ['git+https://github.com/kundajelab/simdna.git@v0.4.3.1#egg=simdna-0.4.3.1'],
