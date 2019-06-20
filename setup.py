@@ -8,8 +8,8 @@ config = {
     'packages': [''],
     'package_data': {},
     'setup_requires': [],
+    'dependency_links': ['http://github.com/kundajelab/simdna.git@v0.4.3.1#egg=simdna-0.4.3.1'],
     'install_requires': ['simdna>=0.4.3.1', 'numpy>=1.9', 'matplotlib', 'scipy'],
-    'dependency_links': ['git+git://github.com/kundajelab/simdna.git@v0.4.3.1#egg=simdna-0.4.3.1'],
     'scripts': ['scripts/motif_density_and_position_sim.py'],
     'name': 'revcompexp'
 }
