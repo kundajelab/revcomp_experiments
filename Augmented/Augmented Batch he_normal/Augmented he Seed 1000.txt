@@ -1,0 +1,3 @@
+Augmented Model he
+auroc: 0.7905338905392871
+auprc: 0.7875310825123518

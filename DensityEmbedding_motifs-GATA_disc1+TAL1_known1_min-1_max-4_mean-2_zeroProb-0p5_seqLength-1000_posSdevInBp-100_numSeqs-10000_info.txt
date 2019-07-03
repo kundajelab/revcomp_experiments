@@ -1,0 +1,86 @@
+{
+    "numSeq": 10000,
+    "singleSetGenerator": {
+        "class": "EmbedInABackground",
+        "namePrefix": "synth",
+        "backgroundGenerator": {
+            "class": "RepeatedSubstringBackgroundGenerator",
+            "substringGenerator": {
+                "class": "SampleFromDiscreteDistributionSubstringGenerator",
+                "discreteDistribution": {
+                    "A": 0.3,
+                    "C": 0.2,
+                    "G": 0.2,
+                    "T": 0.3
+                }
+            },
+            "repetitions": "fixedQuantity-1000"
+        },
+        "embedders": [
+            {
+                "class": "RepeatedEmbedder",
+                "embedder": {
+                    "embeddableGenerator": {
+                        "class": "SubstringEmbeddableGenerator",
+                        "substringGenerator": {
+                            "class": "ReverseComplementWrapper",
+                            "reverseComplementProb": 0.5,
+                            "substringGenerator": {
+                                "class": "PwmSampler",
+                                "motifName": "GATA_disc1",
+                                "bg": null,
+                                "minScore": null
+                            }
+                        }
+                    },
+                    "positionGenerator": {
+                        "class": "NormalDistributionPositionGenerator",
+                        "stdInBp": 100,
+                        "offsetFromCenter": 0
+                    }
+                },
+                "quantityGenerator": {
+                    "class": "ZeroInflater",
+                    "zeroProb": 0.5,
+                    "quantityGenerator": {
+                        "min": 1,
+                        "max": 4,
+                        "quantityGenerator": "poisson-2"
+                    }
+                }
+            },
+            {
+                "class": "RepeatedEmbedder",
+                "embedder": {
+                    "embeddableGenerator": {
+                        "class": "SubstringEmbeddableGenerator",
+                        "substringGenerator": {
+                            "class": "ReverseComplementWrapper",
+                            "reverseComplementProb": 0.5,
+                            "substringGenerator": {
+                                "class": "PwmSampler",
+                                "motifName": "TAL1_known1",
+                                "bg": null,
+                                "minScore": null
+                            }
+                        }
+                    },
+                    "positionGenerator": {
+                        "class": "NormalDistributionPositionGenerator",
+                        "stdInBp": 100,
+                        "offsetFromCenter": 0
+                    }
+                },
+                "quantityGenerator": {
+                    "class": "ZeroInflater",
+                    "zeroProb": 0.5,
+                    "quantityGenerator": {
+                        "min": 1,
+                        "max": 4,
+                        "quantityGenerator": "poisson-2"
+                    }
+                }
+            }
+        ]
+    }
+}
