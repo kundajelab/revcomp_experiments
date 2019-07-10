@@ -1,0 +1,6 @@
+Reverse Complement Model
+auroc: 0.9657750553027875
+auprc: 0.9712182342323223
+Reverse Complement Model
+auroc: 0.948773963468398
+auprc: 0.9576530961758026

@@ -1,0 +1,9 @@
+Reverse Complement Model
+auroc: 0.7673822959449297
+auprc: 0.7679870840083268
+Regular Model
+auroc: 0.8012302368202626
+auprc: 0.8105062108588199
+Siamese Architecture
+auroc: 0.9293454598991424
+auprc: 0.9399492757047911

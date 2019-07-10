@@ -1,0 +1,15 @@
+Reverse Complement: Standard
+auroc: 0.6770362156874385
+auprc: 0.6903826359415198
+Reverse Complement: Variance
+auroc: 0.727430736542874
+auprc: 0.7362700644206142
+Regular Model
+auroc: 0.683032756824422
+auprc: 0.6938578135771957
+Augment Model
+auroc: 0.8303655428856574
+auprc: 0.8405659435774487
+Siamese Architecture
+auroc: 0.7455293103517592
+auprc: 0.7569142509690667

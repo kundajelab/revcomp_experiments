@@ -1,0 +1,6 @@
+Regular Model
+auroc: 0.7125866500362886
+auprc: 0.7167078263715712
+Siamese Architecture
+auroc: 0.8075629256932229
+auprc: 0.8101486779762861
