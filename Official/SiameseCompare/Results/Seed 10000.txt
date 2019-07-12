@@ -1,0 +1,6 @@
+Siamese Architecture: Average
+auroc: 0.7364770646767986
+auprc: 0.751216028399954
+Siamese Architecture: Max
+auroc: 0.7483968538729938
+auprc: 0.7595980493399104
