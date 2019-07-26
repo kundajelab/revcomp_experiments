@@ -1,0 +1,21 @@
+Reverse Complement/Standard
+auroc: 0.9679166071752893
+auprc: 0.974004968068743
+Reverse Complement/Standard Initialization/SpatialDropout
+auroc: 0.9732083526498423
+auprc: 0.9785513426305642
+auroc: 0.9745159721683196
+auprc: 0.9792481849357384
+Reverse Complement/Standard Initialization/MCRCDropout
+auroc: 0.9681837497039041
+auprc: 0.9723925374795521
+auroc: 0.9771533324295754
+auprc: 0.9812868460789215
+Augmented Model
+auroc: 0.9729314396888866
+auprc: 0.9781644752239672
+Augmented Model/Dropout
+auroc: 0.9786229502433883
+auprc: 0.9819659560310137
+auroc: 0.9785165391331622
+auprc: 0.9818686650510673

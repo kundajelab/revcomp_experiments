@@ -1,0 +1,6 @@
+Siamese: No Dropout
+auroc: 0.7740684488656038
+auprc: 0.7771828198720987
+Siamese: Dropout
+auroc: 0.978012629772949
+auprc: 0.9816830468262843

@@ -1,0 +1,8 @@
+{
+  "augment_dropout_auroc": 0,
+  "augment_no_dropout_auroc": 0,
+  "rc_mc_dropout_auroc": 0,
+  "rc_no_dropout_auroc": 0,
+  "rc_spatial_dropout_auroc": 0,
+  "seed": 880074890
+}
