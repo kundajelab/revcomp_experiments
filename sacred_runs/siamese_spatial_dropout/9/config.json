@@ -2,7 +2,7 @@
   "augment": false,
   "dropout": true,
   "dropout_rate": 0.2,
-  "filename": "dropout",
+  "filename": "siamese_dropout_weight_dist",
   "filters": 15,
   "kernel_size": 15,
   "mc_dropout": false,
@@ -12,11 +12,13 @@
   "pool_size": 40,
   "pooling": "max",
   "rev_comp": false,
-  "seed": 335170707,
-  "seed_num": 1000,
+  "seed": 906681536,
+  "seed_num": 2000,
   "siamese": true,
   "spatial_dropout": false,
   "strides": 40,
   "units": 100,
-  "weight_dist": false
+  "weight_dist": true,
+  "weight_dist_filters": 15,
+  "weight_dist_kernel_size": 30
 }

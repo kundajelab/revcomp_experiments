@@ -1,0 +1,105 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "/users/hannahgz/revcomp_experiments",
+    "dependencies": [
+      "ipython==7.4.0",
+      "Keras==2.2.4",
+      "keras-genomics==0.1.0.0",
+      "numpy==1.16.2",
+      "sacred==0.7.5",
+      "scipy==1.2.1",
+      "seqdataloader==0.126",
+      "tensorflow-gpu==1.14.0"
+    ],
+    "mainfile": null,
+    "name": "Pooling Tests",
+    "repositories": [],
+    "sources": []
+  },
+  "heartbeat": "2019-07-27T22:32:05.721344",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz",
+    "gpus": {
+      "driver_version": "418.56",
+      "gpus": [
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        },
+        {
+          "model": "GeForce GTX TITAN X",
+          "persistence_mode": false,
+          "total_memory": 12212
+        }
+      ]
+    },
+    "hostname": "nandi.stanford.edu",
+    "os": [
+      "Linux",
+      "Linux-4.4.0-154-generic-x86_64-with-debian-stretch-sid"
+    ],
+    "python_version": "3.7.3"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2019-07-27T21:53:09.205844",
+  "status": "COMPLETED",
+  "stop_time": "2019-07-27T22:32:05.715849"
+}

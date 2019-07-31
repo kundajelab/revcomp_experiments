@@ -12,11 +12,13 @@
   "pool_size": 40,
   "pooling": "avg",
   "rev_comp": false,
-  "seed": 756522324,
+  "seed": 58422962,
   "seed_num": 2000,
   "siamese": false,
   "spatial_dropout": false,
   "strides": 40,
   "units": 100,
-  "weight_dist": true
+  "weight_dist": true,
+  "weight_dist_filters": 15,
+  "weight_dist_kernel_size": 30
 }

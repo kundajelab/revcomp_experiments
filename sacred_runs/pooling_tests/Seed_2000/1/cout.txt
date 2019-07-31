@@ -1,0 +1,8 @@
+2019-07-26 10:02:31.380408: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-26 10:02:31.402571: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2593840000 Hz
+2019-07-26 10:02:31.407332: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fdae268580 executing computations on platform Host. Devices:
+2019-07-26 10:02:31.407377: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-07-26 10:02:31.452084: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-07-26 10:02:31.504735: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2019-07-26 10:02:31.504822: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (nandi.stanford.edu): /proc/driver/nvidia/version does not exist
+2019-07-26 10:02:32.114503: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.

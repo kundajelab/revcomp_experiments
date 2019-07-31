@@ -1,0 +1,25 @@
+2019-07-30 12:57:20.101258: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-30 12:57:20.151297: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2593840000 Hz
+2019-07-30 12:57:20.153186: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aa4a69c170 executing computations on platform Host. Devices:
+2019-07-30 12:57:20.153282: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-07-30 12:57:20.197105: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-07-30 12:57:34.833266: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aa4a6f8850 executing computations on platform CUDA. Devices:
+2019-07-30 12:57:34.833331: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX TITAN X, Compute Capability 5.2
+2019-07-30 12:57:34.835245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:84:00.0
+2019-07-30 12:57:34.836991: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-07-30 12:57:34.840636: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-07-30 12:57:34.842627: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2019-07-30 12:57:34.847509: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2019-07-30 12:57:34.850155: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2019-07-30 12:57:34.852344: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2019-07-30 12:57:34.858662: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-07-30 12:57:34.890694: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2019-07-30 12:57:34.923079: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-07-30 12:57:34.972739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-30 12:57:34.972879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2019-07-30 12:57:34.972921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2019-07-30 12:57:34.977308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11498 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:84:00.0, compute capability: 5.2)
+2019-07-30 12:58:03.154567: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-07-30 12:58:05.948907: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7

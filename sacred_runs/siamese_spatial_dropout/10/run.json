@@ -14,11 +14,11 @@
       "tensorflow-gpu==1.14.0"
     ],
     "mainfile": null,
-    "name": "Siamese Model: Spatial Dropout",
+    "name": "Siamese Model Dropout Testing",
     "repositories": [],
     "sources": []
   },
-  "heartbeat": "2019-07-25T10:18:22.455301",
+  "heartbeat": "2019-07-26T21:40:49.608500",
   "host": {
     "ENV": {},
     "cpu": "Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz",
@@ -70,7 +70,7 @@
     "hostname": "nandi.stanford.edu",
     "os": [
       "Linux",
-      "Linux-4.4.0-150-generic-x86_64-with-debian-stretch-sid"
+      "Linux-4.4.0-154-generic-x86_64-with-debian-stretch-sid"
     ],
     "python_version": "3.7.3"
   },
@@ -99,7 +99,7 @@
   },
   "resources": [],
   "result": null,
-  "start_time": "2019-07-25T09:18:51.268756",
+  "start_time": "2019-07-26T20:45:27.723472",
   "status": "COMPLETED",
-  "stop_time": "2019-07-25T10:18:22.451590"
+  "stop_time": "2019-07-26T21:40:49.605406"
 }
