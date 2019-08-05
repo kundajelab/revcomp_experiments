@@ -3,6 +3,7 @@ relu activation
 2 regular dropout layers, dropout rate (0.2)
 RevCompSumPool
 Max Pooling: strides - 40, pool_size - 40
+
 rc_standard_dropout_results
 [0.6811627543931971,
  0.6687904688706259,
