@@ -1,0 +1,23 @@
+{
+  "filename": "reg_5_filters",
+  "dataset": "CTCF",
+  "augment": false,
+  "siamese": false,
+  "rev_comp": false,
+  "dropout": false,
+  "mc_dropout": false,
+  "spatial_dropout": false,
+  "rc_spatial_dropout": false,
+  "dropout_rate": 0.2,
+  "num_conv": 3,
+  "filters": 5,
+  "kernel_size": 15,
+  "pool_size": 40,
+  "pooling": "max",
+  "num_epochs": 300,
+  "patience": 60,
+  "seed_num": 8000,
+  "strides": 40,
+  "units": 100,
+  "correlation": 0.6150881495394753
+}

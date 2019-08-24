@@ -1,0 +1,23 @@
+{
+  "filename": "siamese_dropout_no_fully_connected",
+  "dataset": "SPI1",
+  "augment": false,
+  "siamese": true,
+  "rev_comp": false,
+  "dropout": true,
+  "mc_dropout": false,
+  "spatial_dropout": false,
+  "rc_spatial_dropout": false,
+  "dropout_rate": 0.2,
+  "num_conv": 2,
+  "filters": 15,
+  "kernel_size": 15,
+  "pool_size": 40,
+  "pooling": "max",
+  "num_epochs": 300,
+  "patience": 60,
+  "seed_num": 9446,
+  "strides": 40,
+  "units": 100,
+  "correlation": 0.4690670275375838
+}

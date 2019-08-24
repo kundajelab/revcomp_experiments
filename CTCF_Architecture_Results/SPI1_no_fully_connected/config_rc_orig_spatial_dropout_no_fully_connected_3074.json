@@ -1,0 +1,23 @@
+{
+  "filename": "rc_orig_spatial_dropout_no_fully_connected",
+  "dataset": "SPI1",
+  "augment": false,
+  "siamese": false,
+  "rev_comp": true,
+  "dropout": false,
+  "mc_dropout": false,
+  "spatial_dropout": true,
+  "rc_spatial_dropout": false,
+  "dropout_rate": 0.2,
+  "num_conv": 2,
+  "filters": 15,
+  "kernel_size": 15,
+  "pool_size": 40,
+  "pooling": "max",
+  "num_epochs": 300,
+  "patience": 60,
+  "seed_num": 3074,
+  "strides": 40,
+  "units": 100,
+  "correlation": 0.4585427562216411
+}

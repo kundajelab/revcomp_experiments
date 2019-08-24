@@ -1,0 +1,23 @@
+{
+  "filename": "augment_spatial_dropout_pool_size_80",
+  "dataset": "SPI1",
+  "augment": true,
+  "siamese": false,
+  "rev_comp": false,
+  "dropout": false,
+  "mc_dropout": false,
+  "spatial_dropout": true,
+  "rc_spatial_dropout": false,
+  "dropout_rate": 0.2,
+  "num_conv": 3,
+  "filters": 15,
+  "kernel_size": 15,
+  "pool_size": 80,
+  "pooling": "max",
+  "num_epochs": 300,
+  "patience": 60,
+  "seed_num": 9718,
+  "strides": 40,
+  "units": 100,
+  "correlation": 0.4362313684249757
+}
