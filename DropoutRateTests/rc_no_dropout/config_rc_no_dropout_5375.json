@@ -1,0 +1,20 @@
+{
+  "augment": false,
+  "dropout": false,
+  "dropout_rate": 0.34583723767050234,
+  "filename": "rc_no_dropout",
+  "filters": 15,
+  "kernel_size": 15,
+  "mc_dropout": false,
+  "num_conv": 3,
+  "num_epochs": 300,
+  "patience": 60,
+  "pool_size": 40,
+  "pooling": "max",
+  "rev_comp": true,
+  "seed_num": 5375,
+  "siamese": false,
+  "spatial_dropout": false,
+  "strides": 40,
+  "units": 100
+}
